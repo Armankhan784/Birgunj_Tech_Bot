@@ -37,21 +37,21 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dipanshu_021:ad8920@cluster0.f7migc1.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ArmanKhan:<password>@cluster0.lvw75eq.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ARMovieRequest')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ARBackups')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MDiskOnlineMovieWatch')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Arman4556')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001797596826))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001810806290))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/cynitemovies/3')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', --1001224354842))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', --1001683611593))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Arbackups')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/MDiskOnlineMovieWatch/1205')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001819673897))
